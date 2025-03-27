@@ -1,0 +1,19 @@
+package Lab02;
+import Lab01.Ex02.Carro;
+import Lab01.Ex02.Condutor;
+
+public class Citadino extends Carro {
+
+    //Constructor
+    public Citadino(String matricula, Condutor condutor) {
+        super(matricula, condutor);
+    }
+
+    //Methods
+    public void ligarACManual () {
+        System.out.println("AC ligado!");
+    }
+    public void buzinar () {
+        System.out.println("Buzina do Citadino: Piii Piii!");
+    }
+}

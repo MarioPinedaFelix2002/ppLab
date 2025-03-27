@@ -1,0 +1,20 @@
+package Lab02;
+import Lab01.Ex02.Carro;
+import Lab01.Ex02.Condutor;
+
+public class Van extends Carro {
+
+    //Constructor
+    public Van(String matricula, Condutor condutor) {
+        super(matricula, condutor);
+    }
+
+    //Methods
+    public void desligarAirbagPassageiro() {
+        System.out.println("Airbag desligado!");
+    }
+
+    public void buzinar() {
+        System.out.println("Buzina do Van: Bip Bip");
+    }
+}

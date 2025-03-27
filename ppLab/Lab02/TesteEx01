@@ -1,0 +1,25 @@
+package Lab02;
+import Lab01.Ex02.Condutor;
+
+public class TesteEx01 {
+
+    private Condutor condutor3;
+    private Condutor condutor4;
+
+    //Objects
+    Citadino citadino1 = new Citadino("111222333", condutor3);
+    Citadino citadino2 = new Citadino("444555666", condutor3);
+    Van van1 = new Van("aaabbbccc", condutor4);
+    Van van2 = new Van("dddeeefff", condutor4);
+
+    //Constructor
+    public TesteEx01(){}
+
+    //Methods
+    public void iniciarTeste() {
+        citadino1.buzinar();
+    }
+
+}
+
+
